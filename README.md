@@ -3,8 +3,9 @@
 A RAG model using using the 20 Newsgroups science and computer messages.
 
 If you don't want to embed the files yourself you can download them here: [mega.nz link](https://mega.nz/file/uZoxwJqL#-je67pJtlhaz5gd_BcPVd1wSE7-cYige0wo_MbQLhW0)
+You can also download the docker files here: [mega.nz link](https://mega.nz/file/SUZy0aBS#h7nwS-YRJud2r_MpJ_htwDdwFeFTUgQvXJ1TgQooB9Q)
 
-Streamlit application files are located in [the app directory](app/)
+Streamlit application files are located in [the app directory](app/).
 
 ### How to run
 
@@ -28,3 +29,17 @@ streamlit run app\main.py
 ```
 
 This will open the application on http://localhost:8501
+
+### How to build docker
+
+- Build a *.tar.gz file:
+```bash
+poetry build
+```
+You can [download them here](https://mega.nz/file/SUZy0aBS#h7nwS-YRJud2r_MpJ_htwDdwFeFTUgQvXJ1TgQooB9Q)
+
+
+- Run docker:
+```bash
+docker-compose up --build
+```

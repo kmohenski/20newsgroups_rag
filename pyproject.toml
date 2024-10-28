@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "app"
-version = "0.0.1"
+version = "0.3.0"
 description = "A small prototype application for RAG using langchain."
 authors = ["kmohenski <karlo.mohenski@gmail.com>"]
 readme = "README.md"
@@ -14,3 +14,7 @@ langchain-community = "^0.3.3"
 langchain-chroma = "^0.1.4"
 scikit-learn = "^1.5.2"
 streamlit = "^1.39.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

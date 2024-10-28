@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  streamlit_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    environment:
+      STREAMLIT_SERVER_ENABLECORS: "false"
+      STREAMLIT_SERVER_HEADLESS: "true"
