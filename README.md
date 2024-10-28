@@ -3,6 +3,7 @@
 A RAG model using using the 20 Newsgroups science and computer messages.
 
 If you don't want to embed the files yourself you can download them here: [mega.nz link](https://mega.nz/file/uZoxwJqL#-je67pJtlhaz5gd_BcPVd1wSE7-cYige0wo_MbQLhW0)
+
 You can also download the docker files here: [mega.nz link](https://mega.nz/file/LEw0nACC#Jt7BQFl4hVwmRa_MMIwHPElM0WtiRAL_huYWqExPBZ0)
 
 Streamlit application files are located in [the app directory](app/).
