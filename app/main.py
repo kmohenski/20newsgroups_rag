@@ -15,10 +15,8 @@ st.write("\"What is the bmp format?\"")
 st.write("\"What are the risks of smoking?\"")
 st.write("\"Is Mac better then Windows?\"")
 
-# # Text input
 input_text = st.text_input("Ask a question")
 
-# # Classify button
 if st.button("Answer question"):
     if input_text:
         # Display the result
@@ -28,4 +26,4 @@ if st.button("Answer question"):
         st.write("Retrieved messages:")
         st.write(out["retrieved_docs"])
     else:
-        st.write("Please enter text to classify.")
+        st.write("Please enter a question.")

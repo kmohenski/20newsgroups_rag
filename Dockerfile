@@ -8,8 +8,6 @@ COPY . .
 COPY ./dist ./dist
 
 RUN pip install dist/*.tar.gz --no-cache-dir
-RUN pip list
-RUN pip install streamlit
 
 EXPOSE 8501
 
